@@ -1,0 +1,123 @@
+.brandmenu-container {
+  background-color: #660E60; /* purple background */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.btop{
+    width: 100%;
+    display: block;
+}
+
+/* Top logo */
+.brandmenu-header {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  /* padding: 10px; */
+}
+.brand-logo {
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70px;
+  height: auto;
+  border-radius: 20%;
+  /* margin: 10px auto;
+  display: block; */
+  padding: 5px;
+}
+
+/* Menu items */
+.menu-items {
+  flex: 1;
+  padding: 20px;
+  color: #fff;
+}
+
+.menu-row {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #F2AB27; /* yellow line */
+  padding: 13px 0;
+  font-size: 18px;
+}
+
+.menu-name {
+  color: #F2AB27; /* yellow */
+  font-weight: 500;
+}
+
+.menu-price {
+  color: #FFF; /* yellow */
+  font-weight: 500;
+}
+
+.menu-tabs {
+  display: flex;
+  justify-content: center;
+  background: #F2AB27; /* yellow */
+  padding: 8px 0;
+}
+
+.tab-btn {
+  background: transparent;
+  border: none;
+  color: #660E60; /* purple */
+  font-weight: bold;
+  font-size: 16px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.tab-btn.active {
+  border-bottom: 3px solid #660E60;
+}
+
+/* Bottom menu */
+.bottom-wave-menu {
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
+  width: 100%;
+}
+
+.bottom-wave {
+  width: 100;
+  display: block;
+}
+
+.menu-wrapper {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.menu-icon-box {
+  position: relative;
+}
+
+.menu-rect {
+  width: 60px;
+}
+
+.menu-img {
+  position: absolute;
+  top: 6px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+}
+
+.menu-text {
+  margin-top: 1px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #660E60;
+}

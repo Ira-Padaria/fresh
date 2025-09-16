@@ -1,0 +1,131 @@
+.ColdCoco-container{
+  background-color: #660E60;
+  background-image: url("../assets/Logo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 70%;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.top-section {
+  position: relative;
+}
+
+.top-wave {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: -50px;
+}
+
+.ColdCoco-title{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #660E60;
+    background-color: #F2AB27;
+    padding: 10px 0;
+    margin-top: 18px;
+    z-index: 5;
+    position: relative;
+    font-family: 'Merienda One', cursive ;
+}
+
+.menu-list{
+  width: 100%;
+  padding: 0 16px;
+  box-sizing: border-box;
+  margin-top: 15px;
+}
+
+/* .menu-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 2px solid #F2AB27;
+}
+
+.menu-header .item-name,
+.menu-header .item-price {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+} */
+
+/* Menu rows */
+.menu-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 0;
+  border-bottom: 2px solid #F2AB27;
+}
+
+.menu-row:last-child {
+  border-bottom: none;
+}
+
+.item-name.yellow,
+.item-price.yellow {
+  font-size: 16px;
+  font-weight: bold;
+  color: #F2AB27;
+  text-align: left;
+  font-family: 'Merdian One', sans-serif;
+}
+
+.item-price.yellow {
+  color: #F2AB27;
+  text-align: right;
+}
+
+.bottom-wave-menu {
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
+  width: 100%;
+}
+
+.bottom-wave {
+  width: 100;
+  display: block;
+}
+
+.menu-wrapper {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.menu-icon-box {
+  position: relative;
+}
+
+.menu-rect {
+  width: 60px;
+}
+
+.menu-img {
+  position: absolute;
+  top: 6px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+}
+
+.menu-text {
+  margin-top: 1px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #660E60;
+}

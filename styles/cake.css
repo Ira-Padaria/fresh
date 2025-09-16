@@ -1,0 +1,161 @@
+.cake-container {
+  background-color: #660E60;
+  background-image: url('../assets//background.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 70%;
+  color: white;
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.top-section {
+  position: relative;
+}
+
+.top-wave {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: -50px;
+}
+
+.cake-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #660E60;
+  background-color: #F2AB27;
+  padding: 10px 0;
+  margin-top: 18px; /* adjust as needed */
+  z-index: 5;
+  position: relative;
+  font-family: 'Merienda One' cursive;
+}
+
+.tab-bar{
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    background-color: #F2AB27;
+    padding: 2px 0;
+    z-index: 1;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.tab-bar::-webkit-scrollbar{
+    display: none;
+}
+
+.tab-button{
+    flex: 0 0 auto;
+    padding: 10px 16px;
+    margin: 0 8px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #F2AB27;
+    border: none;
+    border-radius: 10px;
+    color: #660E60;
+    cursor: pointer;
+    transition: 0.3 ease-in-out;
+}
+
+.tab-button.active {
+  background-color: #660E60;
+  color: #fff;
+}
+
+.tab-content{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px 15px;
+}
+
+.cake-table{
+  width: 100%;
+  padding: 0 16px;
+  box-sizing: border-box;
+  border-top: none;
+  color: #F2AB27;
+  font-family: 'Merinda One', sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.cake-row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 0;
+  border-bottom: 2px solid #F2AB27;
+}
+
+.cake-row:last-child{
+  border-bottom: none;
+}
+
+.cake-name {
+  color: #F2AB27;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.cake-price {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.bottom-wave-menu {
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
+  width: 100%;
+}
+
+.bottom-wave {
+  width: 100;
+  display: block;
+}
+
+.menu-wrapper {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.menu-icon-box {
+  position: relative;
+}
+
+.menu-rect {
+  width: 60px;
+}
+
+.menu-img {
+  position: absolute;
+  top: 6px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+}
+
+.menu-text {
+  margin-top: 1px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #660E60;
+}
